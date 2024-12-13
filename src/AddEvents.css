@@ -1,0 +1,63 @@
+html {
+    font-size: 10px;
+}
+.mainbodyss {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.outerbox {
+    height: 60rem;
+    width: 90rem;
+    border: solid;
+    border-radius: 4rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mainbodyss .outerbox .leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.mainbodyss .outerbox .eventdetail {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+.mainbodyss .eventdetail .inputtaken {
+    height: 3rem;
+    width: 90%;
+    border-radius: 1rem;
+    padding-left: 2rem;
+}
+
+.mainbodyss .outerbox .eventtime {
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+}
+.mainbodyss .outerbox .eventtime .date {
+    width: 80%;
+}
+.mainbodyss .outerbox .rightsiders {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainbodyss .outerbox .rightsiders .img {
+    height: 40rem;
+    width: 40rem;
+    background-color: #DEDEDE;
+}
+.apply {
+    height: 4rem;
+    width: 20%;
+    border-radius: 1rem;
+}

@@ -1,0 +1,72 @@
+html {
+    font-size: 10px;
+}
+.main-body {
+    margin-top: 6rem;
+    height: 5rem;
+    position: fixed;
+    width: 100vw;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    align-items: center;
+    background-color: #353535;
+    font-size: 1.5rem;
+}
+.main-body li {
+    list-style: none;
+    color: #DADADA;
+}
+
+.main-body .common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+}
+.main-body a {
+    text-decoration: none;
+}
+
+
+
+.first {
+    grid-column: 1/2;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: #DADADA;
+    text-transform: capitalize;
+}
+.second.active {
+    background-color: white;
+}
+.first li {
+    color: black;
+}
+.second {
+    grid-column: 2/3;
+}
+.third {
+    grid-column: 3/4;
+}
+.forth {
+    grid-column: 4/5;
+}
+
+.common :hover {
+    background-color:  rgba(215, 215, 215, 0.24);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: #DADADA;
+    text-transform: capitalize;
+}
+.common:hover, .common li:hover {
+    color: black;
+}

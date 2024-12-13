@@ -1,0 +1,56 @@
+html {
+    font-size: 10px;
+}
+.mainlayout .venueinfodetail {
+   
+    height: 150rem;
+    border: none;
+    background-color: white;
+    width: 85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3rem;
+}
+
+.mainlayout .modelup {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    top: 6rem;
+    padding-left: 3rem;
+    
+}
+.mainlayout .titles {
+    font-size: 3rem;
+    color: goldenrod;
+}
+
+.cmm {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.mainlayout .venueinfodetail .newbook {
+    width: 10rem;
+    height: 4rem;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 45px;
+    border: 1px solid #ff0000;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    align-self: flex-end;
+}
+@media(max-width: 873px) {
+    .mainlayout .venueinfodetail {
+        width: 90%;
+        left: 0;
+    }
+}

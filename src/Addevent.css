@@ -1,0 +1,134 @@
+html {
+    font-size: 10px;
+}
+.nothing {
+    height: 6rem;
+    background-color: #272727;
+}
+.mainlayout {
+    height: 88vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2rem 1fr 1fr 2rem;
+}
+.mainlayout .leftyside {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mainlayout .rightyside {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    
+}
+.mainlayout .rightyside .eventtrack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainlayout .rightyside .eventerbutton .ttle {
+    line-height: 0;
+}
+.mainlayout .border {
+    position: fixed;
+    top: 6rem;
+    left: 3.5rem;
+    height: 80rem;
+    width: 80rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    z-index: 9999;
+    background-color: white;
+    
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+.mainlayout .border .dateselection {
+    display: flex;
+    justify-content: space-around;
+}
+.mainlayout .border .dateselection .datelabel {
+    gap: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.mainlayout .border .same {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+.mainlayout .border .dateselection .dater {
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    height: 4.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+.mainlayout .border .same .getdetail {
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 4.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: 700;
+    outline: none;
+    border: 0.2rem solid #DEDEDE;
+    font-size: 1.5rem;
+}
+.mainlayout .border .same .getdetail:focus {
+    border-color: rgba(145, 166, 145, 0.933);
+}
+
+.mainlayout .border .eventerbutton {
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 45px;
+    border: 1px solid #ff0000;
+    box-sizing: border-box;
+    color: red;
+    display: flex;
+    justify-self: flex-end;
+    padding-top: 0.5rem;
+    margin-top: 3rem;
+    height: 3rem;
+}
+
+@media(max-width: 1430px) {
+    .mainlayout {
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+    }
+    
+}
+@media(max-width: 831px) {
+    .mainlayout .border {
+        width: 85%;
+        left: 0;
+    }
+}

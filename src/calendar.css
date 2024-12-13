@@ -1,0 +1,40 @@
+html{
+    font-size: 10px;
+}
+.react-calendar {
+    margin-bottom: 4rem;
+    height: 30rem;
+    width: 100%;
+    font-size: 2rem;
+    font-family: Roboto;
+    border-radius: 4rem;
+    border: none;
+   
+}
+.selecteddate {
+    order: 1;
+}
+.calendarbox {
+    order: 2;
+}
+abbr{
+    text-decoration: none;
+   
+}
+.react-calendar__month-view__weekdays {
+    color: rgb(118, 118, 118);
+
+}
+.react-calendar__navigation__label {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.react-calendar__navigation__arrow {
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(164, 164, 164);
+}
+.calendar .selectbydate{
+    margin-left: 13rem;
+}

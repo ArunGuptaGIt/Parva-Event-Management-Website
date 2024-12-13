@@ -1,0 +1,45 @@
+.rbc-toolbar-label {
+    display: flex;
+    order: 1;
+    align-self: center;
+    justify-content: center;
+}
+.rbc-toolbar {
+    display: flex;
+    gap: 1rem;
+}
+.rbc-day-bg {
+    border-radius: 1rem;
+}
+.rbc-toolbar:nth-child(3) {
+    display: none;
+}
+
+.custom-toolbar {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.custom-toolbar button {
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: white;
+}
+.rbc-header {
+    height: 5rem;
+}
+.rbc-header span {
+    font-size: 1.5rem;
+    display: flex;
+    justify-self: center;
+}
+.rbc-button-link {
+    font-size: 1.7rem;
+}
+.rbc-event-content {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}

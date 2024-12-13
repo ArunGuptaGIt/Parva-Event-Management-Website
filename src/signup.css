@@ -1,0 +1,143 @@
+html{
+    font-size: 10px;
+}
+
+.main-box {
+    font-size: 1.5rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(232, 230, 230);
+}
+.main-box img{
+    width: 100%;
+    left: 0;
+    top: -9.5rem;
+    position: absolute;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.25rem #DEDEDE;
+    border-radius: 4rem 4rem 0 0;
+
+}
+
+.rightsider{
+    margin-top: 8rem;
+    background-color: white;
+   padding: 2rem 2rem;
+   position: relative;
+   border-radius: 0 0 4rem 4rem;
+   width: 57rem;
+   height: 62rem;
+   border: none;
+   box-shadow: 0.1rem 0.1rem 0.1rem 0.25rem #DEDEDE;
+   transition: .5s;
+  
+}
+.rightsider:hover {
+    height: 64rem;
+    width: 59rem;
+    transition: .5s ease;
+}
+.rightsider .signin {
+    text-align: center;
+}
+.rightsider .inputwrap {
+    height: 6rem;
+    width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.rightsider .inputwrap .inputfield {
+    height: 4rem;
+    border-radius: 1rem;
+    padding: 0 2rem 0 4rem;
+    outline: none;
+    border: 0.2rem solid #DEDEDE;
+    font-size: 1.5rem;
+    transition: 1s ease;
+    font-weight: 600;
+}
+.rightsider .inputwrap .inputfield:focus {
+    border-color: rgba(145, 166, 145, 0.933);
+}
+.rightsider .inputwrap i {
+    position: absolute;
+    top: 50%;
+    color: #DEDEDE;
+    left: 1rem;
+    transition: 1s ease;
+}
+.rightside .inputwrap .inputfield:focus ~i {
+    color: rgba(145, 166, 145, 0.933);
+}
+.rightsider .loginbutton {
+    width: 30%;
+    height: 4rem;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5rem;
+    margin-top: 1.8rem;
+    border-radius: 4.5rem;
+    background-color: #565656;
+    font-weight: 700;
+    border: none;
+    color: white;
+    box-shadow: 0rem 0.4rem 0.89rem 0.1rem rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+
+}
+.rightsider .loginbutton:hover {
+    width: 32%;
+    transition: 0.2s;
+    height: 4.1rem;
+}
+.rightsider .signup {
+    text-align: center;
+    margin: 2rem  0 1rem;
+}
+
+.rightsider a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.rightsider a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+@media(max-width: 570px) {
+
+.rightsider{
+    background-color: white;
+   padding: 2rem 2rem;
+   position: relative;
+   border-radius: 0 0 4rem 4rem;
+   width: 30rem;
+   height: 62rem;
+   border: none;
+   box-shadow: 0.1rem 0.1rem 0.1rem 0.25rem #DEDEDE;
+   transition: .5s;
+  
+}
+.rightsider:hover {
+    height: 64rem;
+    width: 32rem;
+    transition: .5s ease;
+}
+.main-box img{
+    width: 100%;
+    left: 0;
+    top: -5rem;
+    position: absolute;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.25rem #DEDEDE;
+    border-radius: 4rem 4rem 0 0;
+
+}
+}

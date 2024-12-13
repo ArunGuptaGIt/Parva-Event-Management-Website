@@ -1,0 +1,70 @@
+
+  .venueselections {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+.outerforflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+  .venueselections .venuebox {
+    height: 36rem;
+    width: 26.75rem;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    border: 0.2rem solid #DEDEDE;
+}
+.venueselections .venuebox:hover {
+  height: 36.5rem;
+  width: 27rem;
+
+}
+
+
+  .venueselections .venuebox .image {
+    height: 20rem;
+    width: 26.75rem;
+    border-radius: 2rem 2rem 0 2rem;
+}
+  .venueselections .venuebox .image img {
+    border-radius: 2rem 2rem 0 0;
+}
+  .venueselections .venuebox .detail {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+  .venueselections .detail .venuename {
+    font-size: 2.3rem;
+    color: goldenrod;
+}
+  .venueselections .detail .cent {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+  .venueselections .detail .update {
+    width: 30%;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: 0.2rem solid #DEDEDE;
+}
+  .venueselections .detail .buttons {
+    display: flex;
+   justify-content: flex-end;
+   gap: 1rem;
+}

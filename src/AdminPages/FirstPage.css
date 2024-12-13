@@ -1,0 +1,118 @@
+html {
+    font-size: 10px;
+}
+.forborder {
+    height: 13rem;
+}
+.first {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: center;
+}
+.mainbody .events {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.mainbody .tx {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    font-size: 1.2rem;
+    
+}
+.listtype {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+.EventHeading {
+    font-size: 2rem;
+}
+
+.listtype .list {
+    padding: 1rem 5rem 1rem 5rem;
+    height: 16rem;
+    width: 50%;
+    border-radius: 4rem;
+    box-shadow:  0px 4px 22.8px -3px rgba(0, 0, 0, 0.25);
+    display: flex;
+    transition: 0.5s;
+    justify-content: space-between;
+}
+.listtype .list:hover {
+    height: 16.5rem;
+    width: 51%;
+    transition: 0.5s;
+}
+.listtype .list .mainbody {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.listtype .list .mainbody h4 {
+    line-height: 0;
+}
+
+.listtype .list .mainbody i:hover {
+    color: rgb(78, 78, 78);
+    transition: 1s;
+}
+
+.listtype .list .clickable {
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+
+}
+.listtype .list .clickable button {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 4rem;
+    border: none;
+    font-size: 2rem;
+    background-color: white;
+}
+.listtype .list .clickable button:hover {
+    background-color: #DEDEDE;
+}
+
+
+@media(max-width: 1200px) {
+    .listtype .list {
+        width: 80%;
+    }
+    .listtype .list:hover {
+        width: 81%;
+    }
+
+}
+@media(max-width: 750px) {
+    .listtype .list {
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+        width: 80%;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+    }
+    .listtype .list:hover {
+        width: 81%;
+        height: 21rem;
+    }
+    .listtype .list .clickable {
+        display: flex;
+        justify-self: center;
+        align-self: flex-end;
+    }
+}
